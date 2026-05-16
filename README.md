@@ -134,7 +134,7 @@ An automated pipeline that does the monitoring, filtering, summarization, and pu
 | AI Enrichment | Anthropic Claude API | Model configurable in `sources.py` |
 | Database | Supabase (PostgreSQL) | Row Level Security enabled |
 | DB Driver | psycopg2-binary | Direct PostgreSQL connection |
-| Frontend |  Reads from Supabase directly |
+| Frontend | | Reads from Supabase directly |
 
 **Estimated monthly cost:** ~5–15 CHF (Claude API tokens only; everything else is free tier)
 
