@@ -337,4 +337,4 @@ Private project — not licensed for external use or redistribution.
 
 ---
 
-*Built with Python · Claude AI · Supabase · GitHub Actions · Lovable*
+*Built with Python · Claude AI · Supabase · GitHub Actions*
