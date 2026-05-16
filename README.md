@@ -111,7 +111,7 @@ An automated pipeline that does the monitoring, filtering, summarization, and pu
                           │
                           ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                 Lovable Frontend (/news)                      │
+│                  Frontend (/news)                            │
 │                                                              │
 │  Responsive news card grid                                   │
 │  ├── Filter by tag (multi-select)                            │
@@ -134,7 +134,7 @@ An automated pipeline that does the monitoring, filtering, summarization, and pu
 | AI Enrichment | Anthropic Claude API | Model configurable in `sources.py` |
 | Database | Supabase (PostgreSQL) | Row Level Security enabled |
 | DB Driver | psycopg2-binary | Direct PostgreSQL connection |
-| Frontend | Lovable | Reads from Supabase directly |
+| Frontend |  Reads from Supabase directly |
 
 **Estimated monthly cost:** ~5–15 CHF (Claude API tokens only; everything else is free tier)
 
@@ -271,7 +271,7 @@ No secrets are hardcoded anywhere in the codebase.
 4. **GitHub repo** — Private repository, add the four files
 5. **GitHub Secrets** — Add `SCRAPER_DB_URL` + `ANTHROPIC_API_KEY`
 6. **First run** — Trigger manually from Actions tab, verify logs + Supabase table
-7. **Frontend** — Prompt Lovable to build a `/news` page reading from the `news` table
+7. **Frontend** — Create a /news section, which reads from the "news table" created
 
 Full step-by-step setup documentation is maintained separately (not published here for security reasons).
 
